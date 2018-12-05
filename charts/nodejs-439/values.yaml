@@ -8,7 +8,7 @@ image:
   pullPolicy: IfNotPresent
 service:
   name: nodejs-439
-  type: ClusterIP
+  type: NodePort
   externalPort: 80
   internalPort: 8080
   annotations:
